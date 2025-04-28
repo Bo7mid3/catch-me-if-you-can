@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  border: 2px solid red;
+}
+
+#npc {
+  width: 70px;
+  position: relative;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#npc-body {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+#start-playing {
+  float: right;
+  color: #1E90FF;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#dialog {
+  position: absolute;
+  left: 75%;
+  top: -90;
+  width: 300px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  margin: 0;
+}
+
+.emoji {
+  position: absolute;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
